@@ -6,7 +6,6 @@ import TeamDescription from '../TeamDescription/TeamDescription';
 
 const TeamDetails = () => {
     const {idTeam} = useParams();
-    console.log(idTeam); 
     const [team, setTeam] = useState([]);
     useEffect( () => {
         const url = `https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=${idTeam}`;
@@ -14,7 +13,6 @@ const TeamDetails = () => {
         .then(response => response.json())
         .then(data => setTeam(data.teams))
     },[idTeam])
-    console.log(team);
     return (
         <div>
             {
