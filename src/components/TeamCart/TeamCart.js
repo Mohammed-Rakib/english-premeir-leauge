@@ -2,7 +2,7 @@ import React from 'react';
 import MaleImage from '../../Photo/male.png';
 import FemaleImage from '../../Photo/female.png'
 import './TeamCart.css';
-import {  FaRegFlag, FaTwitter, FaInstagram} from "react-icons/fa";
+import {  FaRegFlag} from "react-icons/fa";
 import { GoLocation} from "react-icons/go";
 import {RiFootballFill} from "react-icons/ri"
 import { CgGenderMale} from "react-icons/cg";
