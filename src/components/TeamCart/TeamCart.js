@@ -3,11 +3,11 @@ import MaleImage from '../../Photo/male.png';
 import FemaleImage from '../../Photo/female.png'
 import './TeamCart.css'
 const TeamCart = (props) => {
-    const {strTeamBadge, strTeam, intFormedYear, strCountry, strSport, strGender, strTeamFanart4} = props.team;
+    const {strTeamBadge, strTeam, intFormedYear, strCountry, strSport, strGender} = props.team;
     const gender = props.team.strGender;
     let image;
     if( gender === "Male"){
-        image = <img className="img-fluid" src={strTeamFanart4} alt=""/>;
+        image = <img className="img-fluid" src={MaleImage} alt=""/>;
     }else{
         image =  <img className="img-fluid" src={FemaleImage} alt=""/>;
     }
