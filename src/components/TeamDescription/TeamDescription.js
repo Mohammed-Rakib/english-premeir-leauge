@@ -5,10 +5,10 @@ const TeamDescription = (props) => {
     const {strDescriptionEN, strTwitter, strYoutube, strFacebook, strInstagram} = props.team;
     return (
         <div>
-            <div className="container p-2 description ">
+            <div className="container p-2 description mb-5">
             <p>{strDescriptionEN}</p>
             </div>
-            <div className="social-meadia mb-4">
+            <div className="social-meadia">
            <a href={strFacebook}> < FaFacebookF className="icon" /> </a>
            <a href={strInstagram}> <FaInstagram className="icon"/> </a>
            <a href={strTwitter}> <FaTwitter className="icon"/> </a>
