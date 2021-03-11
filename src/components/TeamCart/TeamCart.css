@@ -1,0 +1,15 @@
+.details-cart{
+    width:90%;
+    margin:40px auto;
+    background-color: rgba(0, 0, 0, 0.822);
+    color:#fff;
+    padding:30px 30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 10px;
+}
+.left-col h3{
+    color: tomato;
+    font-family: cursive;
+}

@@ -1,0 +1,8 @@
+.card-body{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: -17px 16px 14px 6px grey;
+    transition:transform 1.7s ease-in-out;
+}
